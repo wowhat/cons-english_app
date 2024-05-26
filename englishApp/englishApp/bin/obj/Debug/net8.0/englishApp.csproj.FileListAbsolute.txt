@@ -1,0 +1,15 @@
+D:\git._.projects\cons-english_app\englishApp\englishApp\bin\Debug\net8.0\englishApp.exe
+D:\git._.projects\cons-english_app\englishApp\englishApp\bin\Debug\net8.0\englishApp.deps.json
+D:\git._.projects\cons-english_app\englishApp\englishApp\bin\Debug\net8.0\englishApp.runtimeconfig.json
+D:\git._.projects\cons-english_app\englishApp\englishApp\bin\Debug\net8.0\englishApp.dll
+D:\git._.projects\cons-english_app\englishApp\englishApp\bin\Debug\net8.0\englishApp.pdb
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.AssemblyInfoInputs.cache
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.AssemblyInfo.cs
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.csproj.CoreCompileInputs.cache
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.sourcelink.json
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.dll
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\refint\englishApp.dll
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.pdb
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\englishApp.genruntimeconfig.cache
+D:\git._.projects\cons-english_app\englishApp\englishApp\obj\Debug\net8.0\ref\englishApp.dll

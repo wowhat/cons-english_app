@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +23,7 @@ namespace englishApp
 
         public static void Start()
         {
-            Console.WriteLine("Start");
+            class_reading_date_from_excel.read_names_lists();
         }
         public static void Time()
         {
