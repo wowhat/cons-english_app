@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace englishApp
+{
+    class main_class
+    {
+        public static void Main()
+        {
+            class_menu.menu();
+        }
+    }
+}
