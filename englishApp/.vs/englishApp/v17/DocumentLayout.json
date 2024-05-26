@@ -18,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Program.cs",
+              "RelativeDocumentMoniker": "englishApp\\Program.cs",
+              "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Program.cs",
+              "RelativeToolTip": "englishApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T13:27:51.917Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -32,22 +46,9 @@
               "RelativeDocumentMoniker": "englishApp\\Class1.cs",
               "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Class1.cs",
               "RelativeToolTip": "englishApp\\Class1.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBgAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T13:47:38.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Program.cs",
-              "RelativeDocumentMoniker": "englishApp\\Program.cs",
-              "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Program.cs",
-              "RelativeToolTip": "englishApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:27:51.917Z",
               "EditorCaption": ""
             }
           ]
