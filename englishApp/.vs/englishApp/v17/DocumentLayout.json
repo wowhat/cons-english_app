@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\git._.projects\\cons-english_app\\englishApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_start_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_start_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_output_words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_output_words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_reading_data_from_excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_reading_data_from_excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_reading_data_from_excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_reading_data_from_excel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_start_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_start_program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_output_words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|solutionrelative:englishapp\\class_output_words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5D87957-7514-4318-AC04-432A58FB151D}|englishApp\\englishApp.csproj|d:\\git._.projects\\cons-english_app\\englishapp\\englishapp\\class_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "class_start_program.cs",
               "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_start_program.cs",
               "RelativeDocumentMoniker": "englishApp\\class_start_program.cs",
               "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_start_program.cs",
               "RelativeToolTip": "englishApp\\class_start_program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:06:07.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:06:07.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "class_output_words.cs",
               "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_output_words.cs",
               "RelativeDocumentMoniker": "englishApp\\class_output_words.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "englishApp\\class_output_words.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAjwB8AAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T09:50:47.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T09:50:47.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\Program.cs",
               "RelativeDocumentMoniker": "englishApp\\Program.cs",
@@ -72,18 +70,17 @@
               "RelativeToolTip": "englishApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:56:54.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T16:56:54.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "class_reading_data_from_excel.cs",
               "DocumentMoniker": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_reading_data_from_excel.cs",
               "RelativeDocumentMoniker": "englishApp\\class_reading_data_from_excel.cs",
               "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_reading_data_from_excel.cs",
               "RelativeToolTip": "englishApp\\class_reading_data_from_excel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T16:40:58.342Z",
               "EditorCaption": ""
@@ -98,8 +95,7 @@
               "RelativeToolTip": "englishApp\\class_menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:47:38.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T13:47:38.486Z"
             }
           ]
         }
