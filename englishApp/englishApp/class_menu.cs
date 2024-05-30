@@ -23,9 +23,8 @@ namespace englishApp
 
         public static void Start()
         {
-            int chose_list = class_reading_date_from_excel.read_names_lists();
+            class_start_program.Start_program();   
 
-            class_reading_date_from_excel.read_date_from_list(chose_list);
         }
         public static void Time()
         {
