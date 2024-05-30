@@ -13,7 +13,7 @@ namespace englishApp
         {
             int chose_list = class_reading_date_from_excel.read_names_lists();
             class_reading_date_from_excel.read_date_from_list(chose_list);
-            class_output_words.output_words();
+            class_output_words.Traning();
 
         }
     }
