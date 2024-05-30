@@ -26,7 +26,7 @@ namespace englishApp
 
                 int chose_list = Convert.ToInt32(Console.ReadLine());
 
-                return chose_list;
+                return chose_list - 1;
             }
         }
 
@@ -45,11 +45,6 @@ namespace englishApp
                     KeyValuePair<string, string> pair = new KeyValuePair<string, string>(Convert.ToString(worksheet.Cells[i,1].Value), Convert.ToString(worksheet.Cells[i,2].Value));
                     words.Add(pair);
                 } 
-            }
-
-            for(int i = 1; i < words.Count; i++)
-            {
-                Console.WriteLine($"key - {words[i].Key} value - {words[i].Value}");
             }
         }
     }
