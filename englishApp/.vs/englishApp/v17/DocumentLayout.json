@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "englishApp\\class_main_part_program.cs",
               "ToolTip": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\class_main_part_program.cs",
               "RelativeToolTip": "englishApp\\class_main_part_program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T08:25:45.468Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "englishApp\\class_start_program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:13:06.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:13:06.599Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "englishApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:56:54.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T16:56:54.047Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "englishApp\\class_reading_data_from_excel.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAmwCwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:40:58.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T16:40:58.342Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "englishApp\\class_menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:47:38.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T13:47:38.486Z"
             }
           ]
         }
