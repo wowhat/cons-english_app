@@ -23,7 +23,7 @@ namespace englishApp
 
         public static void Start()
         {
-            class_reading_date_from_excel.read_names_lists();
+            class_start_program.Start();
         }
         public static void Time()
         {
