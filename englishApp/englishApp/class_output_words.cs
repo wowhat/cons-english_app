@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -9,8 +10,8 @@ namespace englishApp
 {
     class class_output_words
     {
+        public static Stopwatch stop_watch = new Stopwatch();
         public static Random random = new Random();
-
         public static void Traning()
         {
             int chose_lang = class_chose_language.chose_language();
@@ -24,6 +25,7 @@ namespace englishApp
         {
             HashSet<int> unique_numb = new HashSet<int>();
 
+
             List<KeyValuePair<string, string>> words_list = class_reading_date_from_excel.words;
             //int chose_lang = class_chose_language.chose_language();
             
@@ -31,6 +33,7 @@ namespace englishApp
             
             for (int i = 0; i < words_list.Count; i++)
             {
+                stop_watch.Start();
                 int rand_numb = random.Next(0, words_list.Count);
 
                 if (!unique_numb.Contains(rand_numb))
@@ -49,7 +52,7 @@ namespace englishApp
 
                         string input_word = Console.ReadLine();
 
-                        if (isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Value || !isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Key)
+                        if (isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Value.ToLower().Trim() || !isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Key.ToLower().Trim())
                         {
                             unique_numb.Add(rand_numb);
                             break;
@@ -61,6 +64,8 @@ namespace englishApp
                     i--;
                 }
             }
+            stop_watch.Stop();
+            class_time.time_adding();
             class_repeat.date_reset();
         }
     }

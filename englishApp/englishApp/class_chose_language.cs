@@ -12,6 +12,7 @@ namespace englishApp
         {
             List<string> list_lang = new List<string>() { "ru", "eng" };
             foreach (string lang in list_lang) { Console.WriteLine(lang); }
+            
             int chose_lang = Convert.ToInt32(Console.ReadLine());
             return chose_lang;
         }
