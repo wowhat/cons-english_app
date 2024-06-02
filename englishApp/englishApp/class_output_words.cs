@@ -31,13 +31,13 @@ namespace englishApp
             
             Console.WriteLine($"кол-во слов: {words_list.Count} ");
             
-            for (int i = 0; i < words_list.Count; i++)
+            for (int i = 0; i <= words_list.Count; i++)
             {
                 stop_watch.Start();
                 int rand_numb = random.Next(0, words_list.Count);
-
+/*
                 if (!unique_numb.Contains(rand_numb))
-                {
+                {*/
                     
                     while (true)
                     {
@@ -54,15 +54,16 @@ namespace englishApp
 
                         if (isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Value.ToLower().Trim() || !isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Key.ToLower().Trim())
                         {
-                            unique_numb.Add(rand_numb);
+                            words_list.RemoveAt(rand_numb);
+                            /*unique_numb.Add(rand_numb);*/
                             break;
                         }
                     }
-                }
+                /*}
                 else
                 {
                     i--;
-                }
+                }*/
             }
             stop_watch.Stop();
             class_time.time_adding();
