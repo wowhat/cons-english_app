@@ -29,6 +29,7 @@ namespace englishApp
         public static void Time()
         {
             Console.WriteLine("Time");
+            class_repeat.date_reset();
         }
         public static void Exit()
         {

@@ -8,7 +8,8 @@ namespace englishApp
     class class_reading_date_from_excel
     {
 
-        public static string File_path = @"D:\\metadate\point_system.xlsx";
+        public static string File_path = @"D:\\metadate\point_system_test.xlsx";
+        public static int chose_list;
         //public static string File_path_laptop = @"C:\\metadate\point_system_test.xlsx";
         public static List<KeyValuePair<string, string>> words = new List<KeyValuePair<string, string>>();
         public static int read_names_lists()
@@ -31,10 +32,11 @@ namespace englishApp
             }
         }
 
-        public static void read_date_from_list(int chose_list)
+        public static void read_date_from_list()
         {
             using (ExcelPackage package = new ExcelPackage(new FileInfo(File_path)))
             {
+                chose_list = read_names_lists();
                 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
                 ExcelWorksheet worksheet = package.Workbook.Worksheets[chose_list];

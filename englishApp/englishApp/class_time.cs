@@ -11,7 +11,7 @@ namespace englishApp
         public static void time_adding()
         {
             string File_Path = class_reading_date_from_excel.File_path; // путь к excel файлу
-            int chose_list = class_start_program.chose_list; // переменная с выбором листа
+            int chose_list = class_reading_date_from_excel.chose_list ; // переменная с выбором листа
 
             using (ExcelPackage package = new ExcelPackage(new FileInfo(File_Path)))
             {
@@ -24,8 +24,7 @@ namespace englishApp
                 Console.WriteLine($"Затраченное время на прохождение данного словаря : {times} . . . ");
                 Console.ReadLine();
 
-                if (worksheet.Cells[1,4].Value == null) {worksheet.Cells[1, 4].Value = 2;}
-                // проверка на нулевое значение ячейки "если да : запись номера строки для определения в какую ячейку записывать время "
+                if (worksheet.Cells[1,4].Value == null) {worksheet.Cells[1, 4].Value = 2;} // проверка на нулевое значение ячейки "если да : запись номера строки для определения в какую ячейку записывать время "
                 if (worksheet.Cells[1, 3].Value == null) { worksheet.Cells[1, 3].Value = "my time"; } // проверка на нулевое значение ячейки "если да : запись для представления что будет в столбце" 
                 int val_D = Convert.ToInt32(worksheet.Cells[1, 4].Value); // переменная для хранения номера строки куда будет записано время
                 worksheet.Cells[val_D, 3].Value = times; // запись времени в ячейку
