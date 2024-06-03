@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj": {}
+    "C:\\git_projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj": {}
   },
   "projects": {
-    "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj": {
+    "C:\\git_projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj",
+        "projectUniqueName": "C:\\git_projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj",
         "projectName": "englishApp",
-        "projectPath": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj",
-        "packagesPath": "C:\\Users\\lolyo\\.nuget\\packages\\",
-        "outputPath": "D:\\git._.projects\\cons-english_app\\englishApp\\englishApp\\obj\\",
+        "projectPath": "C:\\git_projects\\cons-english_app\\englishApp\\englishApp\\englishApp.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\git_projects\\cons-english_app\\englishApp\\englishApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lolyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

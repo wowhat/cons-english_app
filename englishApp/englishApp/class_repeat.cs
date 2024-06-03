@@ -10,7 +10,6 @@ namespace englishApp
     {
         public static void date_reset()
         {
-            class_reading_date_from_excel.words.Clear();
             Console.Clear();
             class_menu.menu();
         }
