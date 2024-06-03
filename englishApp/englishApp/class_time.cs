@@ -10,7 +10,7 @@ namespace englishApp
     {
         public static void time_adding()
         {
-            string File_Path = class_reading_date_from_excel.File_path; // путь к excel файлу
+            string File_Path = class_reading_date_from_excel.File_path_laptop; // путь к excel файлу
             int chose_list = class_reading_date_from_excel.chose_list ; // переменная с выбором листа
 
             using (ExcelPackage package = new ExcelPackage(new FileInfo(File_Path)))
