@@ -28,40 +28,33 @@ namespace englishApp
 
             List<KeyValuePair<string, string>> words_list = class_reading_date_from_excel.words;
             //int chose_lang = class_chose_language.chose_language();
-            
+            int i = 1;
             Console.WriteLine($"кол-во слов: {words_list.Count} ");
-            
-            for (int i = 0; i < words_list.Count; i++)
+
+            while (words_list.Count > 0)
             {
                 stop_watch.Start();
                 int rand_numb = random.Next(0, words_list.Count);
 
-                if (!unique_numb.Contains(rand_numb))
+                while (true)
                 {
-                    
-                    while (true)
+                    if (isEnglish)
                     {
-                        if (isEnglish)
-                        {
-                            Console.Write($"{i + 1}. {words_list[rand_numb].Key} \t");
-                        }
-                        else
-                        {
-                            Console.Write($"{i + 1}. {words_list[rand_numb].Value} \t");
-                        }
-
-                        string input_word = Console.ReadLine();
-
-                        if (isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Value.ToLower().Trim() || !isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Key.ToLower().Trim())
-                        {
-                            unique_numb.Add(rand_numb);
-                            break;
-                        }
+                        Console.Write($"{i}. {words_list[rand_numb].Key} \t");
                     }
-                }
-                else
-                {
-                    i--;
+                    else
+                    {
+                        Console.Write($"{i}. {words_list[rand_numb].Value} \t");
+                    }
+
+                    string input_word = Console.ReadLine();
+
+                    if (isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Value.ToLower().Trim() || !isEnglish && input_word.ToLower().Trim() == words_list[rand_numb].Key.ToLower().Trim())
+                    {
+                        i++;
+                        words_list.RemoveAt(rand_numb);
+                        break;
+                    }
                 }
             }
             stop_watch.Stop();
