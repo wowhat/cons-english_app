@@ -23,9 +23,6 @@ namespace englishApp
         }
         public static void output_words(bool isEnglish)
         {
-            HashSet<int> unique_numb = new HashSet<int>();
-
-
             List<KeyValuePair<string, string>> words_list = class_reading_date_from_excel.words;
             //int chose_lang = class_chose_language.chose_language();
             int i = 1;
