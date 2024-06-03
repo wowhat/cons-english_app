@@ -8,7 +8,7 @@ namespace englishApp
     class class_reading_date_from_excel
     {
 
-        public static string File_path = @"D:\\metadate\point_system_test.xlsx";
+        public static string File_path = @"D:\\metadate\point_system.xlsx";
         public static int chose_list;
         //public static string File_path_laptop = @"C:\\metadate\point_system_test.xlsx";
         public static List<KeyValuePair<string, string>> words = new List<KeyValuePair<string, string>>();
