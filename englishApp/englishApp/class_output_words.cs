@@ -56,7 +56,7 @@ namespace englishApp
             }
             stop_watch.Stop();
             class_time.time_adding();
-            class_repeat.date_reset();
+            class_repeat.reset();
         }
     }
 }

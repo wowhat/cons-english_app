@@ -8,7 +8,7 @@ namespace englishApp
 {
     class class_repeat
     {
-        public static void date_reset()
+        public static void reset()
         {
             Console.Clear();
             class_menu.menu();

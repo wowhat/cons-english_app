@@ -10,13 +10,12 @@ namespace englishApp
     {
         public static void time_adding()
         {
-            string File_Path = class_reading_date_from_excel.File_path_laptop; // путь к excel файлу
+            string File_Path = class_writing_file_path._file_path; // путь к excel файлу
             int chose_list = class_reading_date_from_excel.chose_list ; // переменная с выбором листа
 
             using (ExcelPackage package = new ExcelPackage(new FileInfo(File_Path)))
             {
-
-                ExcelWorksheet worksheet = package.Workbook.Worksheets[chose_list];
+                ExcelWorksheet worksheet = package.Workbook.Worksheets["times_list"];
 
                 TimeSpan ts = class_output_words.stop_watch.Elapsed;  // получение объекта типа timeSpan
                 string times = string.Format("{0:00}:{1:00}", ts.Minutes, ts.Seconds); // форматировани объекта в удобный вид
@@ -24,12 +23,14 @@ namespace englishApp
                 Console.WriteLine($"Затраченное время на прохождение данного словаря : {times} . . . ");
                 Console.ReadLine();
 
-                if (worksheet.Cells[1,4].Value == null) {worksheet.Cells[1, 4].Value = 2;} // проверка на нулевое значение ячейки "если да : запись номера строки для определения в какую ячейку записывать время "
-                if (worksheet.Cells[1, 3].Value == null) { worksheet.Cells[1, 3].Value = "my time"; } // проверка на нулевое значение ячейки "если да : запись для представления что будет в столбце" 
-                int val_D = Convert.ToInt32(worksheet.Cells[1, 4].Value); // переменная для хранения номера строки куда будет записано время
-                worksheet.Cells[val_D, 3].Value = times; // запись времени в ячейку
+                if (worksheet.Cells[1, 1].Value == null) { worksheet.Cells[1, 1].Value = "Dictionary"; }
+                if (worksheet.Cells[1,3].Value == null) {worksheet.Cells[1, 3].Value = 2;} // проверка на нулевое значение ячейки "если да : запись номера строки для определения в какую ячейку записывать время "
+                if (worksheet.Cells[1, 2].Value == null) { worksheet.Cells[1, 2].Value = "my time"; } // проверка на нулевое значение ячейки "если да : запись для представления что будет в столбце" 
+                int val_D = Convert.ToInt32(worksheet.Cells[1, 3].Value); // переменная для хранения номера строки куда будет записано время
+                worksheet.Cells[val_D, 1].Value = package.Workbook.Worksheets[chose_list].Name; // запись имя в ячейку
+                worksheet.Cells[val_D, 2].Value = times; // запись времени в ячейку
                 val_D++; // инкремент специальной переменной которая хранит номер строки
-                worksheet.Cells[1,4].Value = val_D; // сохранение переменной в ячейку
+                worksheet.Cells[1,3].Value = val_D; // сохранение переменной в ячейку
                 package.Save(); // сохрание обновленных данных для excel файла
             }
         }

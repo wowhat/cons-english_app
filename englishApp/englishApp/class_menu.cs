@@ -13,7 +13,7 @@ namespace englishApp
             Console.WriteLine($"1.Start \n2.Time \n0.Exit");
             int menu_choice = Convert.ToInt32(Console.ReadLine());
 
-            switch (menu_choice)
+           switch (menu_choice)
             {
                 case 1: Start();  break;
                 case 2: Time(); break;
@@ -29,7 +29,7 @@ namespace englishApp
         public static void Time()
         {
             Console.WriteLine("Time");
-            class_repeat.date_reset();
+            class_repeat.reset();
         }
         public static void Exit()
         {
