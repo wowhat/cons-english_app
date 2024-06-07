@@ -10,13 +10,12 @@ namespace englishApp
     {
         public static void menu()
         {
-            Console.WriteLine($"1.Start \n2.Time \n0.Exit");
+            Console.WriteLine($"1.Start \n0.Exit");
             int menu_choice = Convert.ToInt32(Console.ReadLine());
 
            switch (menu_choice)
             {
                 case 1: Start();  break;
-                case 2: Time(); break;
                 case 0: Exit();  break;
             }
         }
@@ -25,11 +24,6 @@ namespace englishApp
         {
             class_start_program.Start_program();   
 
-        }
-        public static void Time()
-        {
-            Console.WriteLine("Time");
-            class_repeat.reset();
         }
         public static void Exit()
         {

@@ -10,7 +10,6 @@ namespace englishApp
 {
     class class_output_words
     {
-        public static Stopwatch stop_watch = new Stopwatch();
         public static Random random = new Random();
         public static void Traning()
         {
@@ -30,7 +29,6 @@ namespace englishApp
 
             while (words_list.Count > 0)
             {
-                stop_watch.Start();
                 int rand_numb = random.Next(0, words_list.Count);
 
                 while (true)
@@ -54,8 +52,6 @@ namespace englishApp
                     }
                 }
             }
-            stop_watch.Stop();
-            class_time.time_adding();
             class_repeat.reset();
         }
     }
